@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.churchadminplugin.wpchurch" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>WP Church</name>
+    <description>
+        An app for local churches that use Wordpress and the Church Admin Plugin.
+    </description>
+    <author email="support@churchadminplugin.com" href="http://www.churchadminplugin.com">
+        Andy Moyle
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#E9E9E9" />
+    <preference name="StatusBarStyle" value="darkcontent" />
+    <preference name="FadeSplashScreenDuration" value="3000" />
+</widget>

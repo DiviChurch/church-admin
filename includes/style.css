@@ -1,0 +1,178 @@
+
+#filtered-response{clear:left}
+.filterblock{border:1px solid #CCC; border-radius:3px;margin:5px;float:left;}
+.filterblock p{margin:5px;}
+.filterblock span{width:150px;overflow:hidden;display:inline-block}
+.filterblock label{font-size: 14px; padding: 8px 12px;margin: 0;line-height: 1.4;border-bottom: 1px solid #ccc;display: block;
+    font-weight: 600;}
+.alignleft{float:left;margin-right:10px;}
+.ca-comment{border:1px solid #ccc;border-radius:3px;width:100%;margin-top:10px;padding:10px;background:#FFF}
+.ca-reply{margin-left:50px;max-width:90%}
+.ca-comment-meta{font-weight: bold;line-height:50px;}
+.ca-comment-meta img{vertical-align:middle;margin-right:5px;}
+.ca-types{display-none;}
+.ca-private td{background:#FF731E!important}
+.ca-deactivated td{color:#CCC!important;}
+.church-admin-calendar-widget-item{display:table;height:100%;margin-bottom:5px;font-size:1em}
+.to{width:90%}
+.ca-item-detail{float:left;margin-left:5px;}
+time.ca-icon
+{
+float:left;
+  font-size: 1em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 7em;
+  height: 7em;
+  background-color: #fff;
+  margin: 10px auto;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotate(0deg) skewY(0deg);
+  -webkit-transform-origin: 50% 10%;
+  transform-origin: 50% 10%;
+}
+
+time.ca-icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+time.ca-icon strong
+{
+  position: absolute;
+  top: 0;
+  padding: 0.4em 0;
+  color: #fff;
+  background-color: #fd9f1b;
+  border-bottom: 1px dashed #f37302;
+  box-shadow: 0 2px 0 #fd9f1b;
+}
+
+time.ca-icon em
+{
+  position: absolute;
+  bottom: 0.3em;
+  color: #fd9f1b;
+}
+
+time.ca-icon span
+{
+  width: 100%;
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.8em;
+  color: #2f2f2f;
+}
+
+time.ca-icon:hover, time.ca-icon:focus
+{
+  -webkit-animation: swing 0.6s ease-out;
+  animation: swing 0.6s ease-out;
+}
+
+@-webkit-keyframes swing {
+  0%   { -webkit-transform: rotate(0deg)  skewY(0deg); }
+  20%  { -webkit-transform: rotate(12deg) skewY(4deg); }
+  60%  { -webkit-transform: rotate(-9deg) skewY(-3deg); }
+  80%  { -webkit-transform: rotate(6deg)  skewY(-2deg); }
+  100% { -webkit-transform: rotate(0deg)  skewY(0deg); }
+}
+
+@keyframes swing {
+  0%   { transform: rotate(0deg)  skewY(0deg); }
+  20%  { transform: rotate(12deg) skewY(4deg); }
+  60%  { transform: rotate(-9deg) skewY(-3deg); }
+  80%  { transform: rotate(6deg)  skewY(-2deg); }
+  100% { transform: rotate(0deg)  skewY(0deg); }
+}
+
+.church_admin label{float:left;width:200px;font-weight:700;}
+.church_admin input{}
+.church_admin_photos{height:75px;margin-bottom:5px;}
+.church_admin_address{text-align:left;border-radius:4px;-moz-border-radius:4px;border:1px solid #E3E3E3;margin:8px 0px;padding:6px;position:relative;}
+.church_admin_name_address{display:block;float:left;width:32.26%;}
+.church_admin_phone_email{display:block;float:left;margin:0;width:32.26%;}
+.church_admin_phone_email a{color:#000!important}
+.church_admin_address_map{display:block;float:left;text-align:right;width:32.26%;}
+.church_admin_vcard{}
+@media only screen and (max-width:480px){.church_admin_name_address,.church_admin_phone_email,.church_admin_address_map{width:100%;height:auto;text-align:left}}
+.church_admin_address:before,.church_admin_address:after{content:"";display:table;}
+.church_admin_address_map:after,.church_admin_address:after{clear:both;}
+.church-admin-sermons-widget .audiojs{overflow:hidden;width:90%}
+.church-map{height:auto;display:block}
+#admin_map{width:1000px;height:250px;margin-bottom:10px}
+table.church_admin,table.church_admin_calendar{empty-cells:show;table-layout:fixed;font-size:10pt;border-collapse:collapse;margin-bottom:5px;}
+
+.church_admin th,.church_admin td,.church_admin_calendar td{border:1px solid gray;border-collapse:collapse;font-size:10pt;padding:3px !important;vertical-align:top}
+.church_admin th{font-weight:bold;}
+.church_admin tr,.church_admin_calendar tr{vertical-align:top}
+.calendar-date-switcher{text-align:center;border:1px solid #D6DED5;background-color:#E4EBE3;}
+.calendar-date-switcher form{margin:0;padding:0;}
+.calendar-date-switcher input{border:1px #D6DED5 solid;font-size:10pt;}
+.calendar-date-switcher select{border:1px #D6DED5 solid;}
+
+
+.ca_event_detail{display:table-cell;padding-left:10px;}
+.church-admin-calendar-widget-item img{display:table-cell;margin-right:10px;vertical-align:middle;}
+.calendar-heading{height:25px;text-align:center;border:1px solid #D6DED5;background-color:#E4EBE3;}
+.church_admin_tooltip{position:absolute;z-index:1000;color:#000;padding:3px;width:250px;display:none;box-shadow: 5px 5px 5px #ccc;
+line-height: 1.5em;}
+.church_admin_cal_item{margin-bottom:5px;line-height: 1.3em;}
+.church_admin_empty_cell{background:#E4EBE3;}
+.ca-images{float:left;width:45%;}
+.Postit{width:90%;background-color:#FFFFB3;border-right:3px solid #BBBBBB;border-bottom:3px solid #BBBBBB;border-left:1px solid #DDDDDD;border-top:1px solid #DDDDDD;color:#666666;padding:5px;margin:5px;}
+.Postit h1,.Postit h2{padding:0 0px;font-weight:bold;font-size:1.2em;}
+.Postit ul{margin:0;font-size:0.75em;list-style:none;padding:0em;}
+.Postit a{text-indent:0;padding:0;}
+.Postit li{text-indent:0;padding:0 0 10px 0;margin:0!important;list-style:none;border-bottom:none !important;}
+.church_admin_calendar td{width:14.28%}
+div.pagination{padding:3px;margin:3px;text-align:center;}
+div.pagination a{padding:2px 5px 2px 5px;margin-right:2px;border:1px solid #9aafe5;text-decoration:none;color:#2e6ab1;}
+div.pagination a:hover, div.pagination a:active{border:1px solid #2b66a5;color:#000;background-color:lightyellow;}
+div.pagination span.current{padding:2px 5px 2px 5px;margin-right:2px;border:1px solid navy;font-weight:bold;background-color:#2e6ab1;color:#FFF;}
+div.pagination span.disabled{padding:2px 5px 2px 5px;margin-right:2px;border:1px solid #929292;color:#929292;}
+#map{width:600px;height:500px;margin-right:5px;}
+
+.church_admin_main_menu h2{padding-top:0px;}
+.church_admin_left{width:45%;height:300px;border:1px solid #CCC;background:#FEB801;border-radius:5px;margin:0px 10px 10px 0px;padding:5px 10px;text-align:left;float:left;overflow:auto;}
+.church_admin_left img{max-width:90%;}
+@media only screen and (max-width:480px){.church_admin_left{width:95%; margin:0 auto;float:none;}}}
+#smallgroup{display:none;}
+ #member_type{display:none;}
+ #individuals{display:none;}
+ #roles{display:none;}
+ #hope_team{display:none}
+#church-admin .red{border:1px solid #f00!important;}
+#church-admin .roles{display:inline-block;}
+#church-admin form li {width:700px;}
+#church-admin label{width:200px; float:left;font-weight:bold;}
+#church-admin input[type="text"]{width:300px;}
+.note{display:inline-block;height: 100%;}
+   
+#church_admin_whoto {position:relative; top:55px;left:10px;width:130px;}
+.church_admin_regular{background:#E6E6E6;}
+#church_admin_message{position:relative;top:60px;left:10px; }
+.sms {width:135px; height:100px;background:transparent;border:1px solid orange;}
+#church_admin_number {position:relative;top:35px;left:10px;}
+#church_admin_number input{width:135px;background:transparent;border:1px solid orange;}
+#church_admin_submit{position:relative;top:95px;left:20px;}  
+.clonedInput {margin-bottom:10px;padding:10px 5px ;}
+#formWrap { padding:10px; position:absolute; float:left; background-color:#000; background:rgba(0,0,0,.5); -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; }
+
+.friends { width:274px; padding:3px 3px 0; margin:0 auto; border:1px solid #aaa; background-color:#fff; cursor:text; }
+.friends span{ display:block !important; width:auto!important; margin:0 3px 3px 0 !important; padding:3px 20px 4px 8px !important; position:relative !important; float:left !important; text-indent:0; background-color:#eee; border:1px solid #333; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; color:#333; font:normal 11px Verdana, Sans-serif; }
+.friends span a{ position:absolute !important; right:8px !important; top:2px !important; color:#666 !important;  text-decoration:none; }
+.friends span a:hover{ color:#ff0000 !important; }
+.ui-menu .ui-menu-item { white-space:nowrap; padding:0 10px 0 0; }
+
+#map img{max-width:none}
+#iphone{background:url("../images/iphone5.png");width:632px;height:1247px;position:relative}
+.demo-app{position:absolute;left:75px;top:200px}
